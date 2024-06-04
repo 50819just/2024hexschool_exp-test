@@ -52,6 +52,8 @@ border: none;
 .header {
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   flex-wrap: wrap;
   background-color: #FAFAFA;
  
@@ -61,6 +63,8 @@ border: none;
   .header{
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     flex-wrap: wrap;
   
 
@@ -69,7 +73,9 @@ border: none;
   @media (max-width:1440px){
     .header {
       display: flex;
-      text-align: center;
+      justify-content: center;
+      align-items: center;
+      text-align: center;      
       flex-wrap: wrap;
       padding: 20px;
   
@@ -85,11 +91,12 @@ border: none;
 
 } 
 
-.header > div >a {
+
+.header_font{
 
   align-items: center ;
   flex-wrap: wrap;
-  font-size: 1.5rem;
+  font-size: 24px;
   text-decoration: none;
   color: black;
 
@@ -129,7 +136,8 @@ border: none;
 
 }
 .footer_div2_div1{
-  
+  display: flex;
+  justify-content: center;
   width: 306px;
   height: 72px;
   background-color: black;
@@ -138,6 +146,8 @@ border: none;
   border-radius:8px ;
 }
 .footer_div2_div2{
+  display: flex;
+  justify-content: center;
   width: 306px;
   height: 72px;
   background-color: white;
@@ -145,4 +155,87 @@ border: none;
   border: solid 0.5px;
   border-color: #C1C1C1  ;
   border-radius: 8px ;
+
 }
+@media screen and (max-width: 768px) {
+
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+  }
+  .footer_div1{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 686px;
+    height:186px ;
+  
+  }
+  .footer_div2{
+   display: block;
+   text-align: center;
+  
+  }
+  .footer_div2_div1{
+    display: flex;
+    justify-content: center;
+  }
+
+  
+}
+
+
+
+.footer_div1_font{
+  line-height: 20px;
+}
+
+
+.page_bt1{
+  width: 40px;
+  height: 40px;
+  border-radius:4px ;
+  margin: 4px, 13px, 4px, 13px ;
+  padding: 2px;
+  /* background-color: #1E1E1E ; */
+  border-color: white;
+  font-size: larger 24px;
+  color:  #1E1E1E;
+  text-align: center;
+  line-height:40px;
+  display: flex;
+  justify-content: center;
+  gap :20px;
+}
+
+.page_bt2{
+  width: 40px;
+  height: 40px;
+  border-radius:4px ;
+  border-color: white;
+  margin: 4px, 13px, 4px, 13px ;
+  padding: 2px;
+  background-color: none ;
+
+  font-size: larger 24px;
+  /* color: #1E1E1E; */
+  text-align: center;
+  line-height:40px;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.M_page_bt{
+  list-style-type:none;
+  margin: 20px 20px;
+  gap: 20px ;
+  border-radius:4px ;
+  
+}
+
+
+
