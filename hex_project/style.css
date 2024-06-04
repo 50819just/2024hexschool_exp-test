@@ -1,0 +1,148 @@
+.font_s16 {
+  font-size: 14px;
+}
+.nav-link {
+font-size: 16px;
+}
+
+
+.navbar-nav {
+  gap: 30px;
+
+}
+.card-class{
+  
+  display: flex;
+  justify-content:start ;
+ 
+}
+.card_btn {
+
+  margin: 4px 5px 4px 5px;
+  padding: 0px 10px;
+  background-color: #F1F1F1;
+  font-size: 14px;
+  
+}
+
+.card_bd_none{
+border: none;
+}
+
+.card_taxi_color_919191{
+  color: #919191;
+}
+
+.padding_05rem{
+  flex: 11 auto;
+  padding: .4rem;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.nav-center{
+  display: flex;
+  justify-content: center;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #FAFAFA;
+ 
+}
+
+@media (max-width:992px){
+  .header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+
+  };
+
+  @media (max-width:1440px){
+    .header {
+      display: flex;
+      text-align: center;
+      flex-wrap: wrap;
+      padding: 20px;
+  
+    }
+}
+}
+.header >div{
+  margin: 0px;
+  width: 670px;
+  height: 192px;
+  display: flex;
+  align-items: center;
+
+} 
+
+.header > div >a {
+
+  align-items: center ;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+
+}
+
+.header-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  
+}
+
+.text_border{
+  color: gray;
+  border-bottom: 2px;
+  border-width: 4px;
+}
+
+.text-align {
+  text-align: center;
+}
+.footer{
+  background-color: rgb(230, 229, 229);
+  height:424px;
+  width:1920 px;
+  align-items: center;
+}
+
+.footer_div1{
+
+  width: 686px;
+  height:186px ;
+}
+.footer_div2{
+ display: block;
+ text-align: center;
+
+}
+.footer_div2_div1{
+  
+  width: 306px;
+  height: 72px;
+  background-color: black;
+  margin-bottom: 8px;
+  border: solid 1px;
+  border-radius:8px ;
+}
+.footer_div2_div2{
+  width: 306px;
+  height: 72px;
+  background-color: white;
+  margin-bottom: 8px;
+  border: solid 0.5px;
+  border-color: #C1C1C1  ;
+  border-radius: 8px ;
+}
