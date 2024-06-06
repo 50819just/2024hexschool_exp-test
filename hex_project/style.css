@@ -4,8 +4,46 @@
 
 .nav-link {
   font-size: 16px;
+  color: #1E1E1E
 }
 
+.navbar-ul:hover{
+
+
+  position: relative;
+  width:100px;
+}
+
+.navbar-ul::before,.navbar-ul::after{
+position: absolute;
+}
+
+.navbar-ul::before{
+
+  top: 0;
+  left: 0;
+  content: "";
+  color: #919191;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-top: 4px solid #919191;
+  border-left: 4px solid  #919191  ;
+  -webkit-box-reflect: below 20px;
+}
+
+.navbar-ul::after{
+  top: 0;
+  left: 60px;
+  content: "";
+  color: #919191;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-top: 4px solid #919191;
+  border-right: 4px solid  #919191  ;
+  -webkit-box-reflect: below 20px;
+}
 
 
 .navbar-nav {
@@ -59,6 +97,18 @@
 }
 
 /* header */
+
+.header_title_img::before{
+ content: url(./img/gridicons_quote.png);
+margin-right: auto;
+}
+.header_title_img::after{
+  content: url(./img/gridicons_quote\ \(1\).png);
+  margin-left: auto;
+ 
+ }
+
+
 /* .header {
   display: flex;
   justify-content: center;
@@ -121,9 +171,9 @@
 }
 
 .header>div {
-  margin: 0px;
+  margin:20px;
   width: auto;
-  height: 192px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
