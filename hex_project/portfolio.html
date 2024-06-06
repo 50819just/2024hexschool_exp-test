@@ -65,22 +65,24 @@
   <!-- header -->
   <header class="header  justify-content-center text-center flex-column ">
 
-    <div class=" d-flex justify-content-center  flex-column ">
+    <div class=" header_title  d-flex justify-content-center  flex-column ">
+      <img src="./img/gridicons_quote.png" class="d-block p-2 ">
       <a class=" d-flex justify-content-center text-center header_font  flex-column ">
         讓使用者在觀賞與使用的旅程中，發現設計的價值
-        <p class="header_font" > </p>
+        <p class="header_font"> </p>
         而我在設計與開發的過程中，看見自己的價值
       </a>
+      <img src="./img/gridicons_quote (1).png" alt="" class="header_">
     </div>
 
-    <div class=" d-flex justify-content-center">
-      <div class="d-flex justify-content-center flex-wrap">
+    <div class="header_title2">
+      <div class="header_title2">
         <a class="text-dark text-align text-decoration-none text_border">2B經驗
           <p class=""></p>
           內部監控系統、庫存系統、採購系統、行銷整合系統
         </a>
       </div>
-      <div class="d-flex justify-content-center flex-wrap">
+      <div class="header_title2 ">
         <a class="text-dark text-align text-decoration-none">2B經驗
           <p class=""></p>
           內部監控系統、庫存系統、採購系統、行銷整合系統
@@ -93,7 +95,7 @@
   <!-- main container -->
   <section class="d-flex justify-content-center container">
     <div class="container row d-flex justify-content-center">
-      <div class="card card_bd_none" style="width: 22rem; ">
+      <div class="card card_bd_none" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 22rem; ">
         <img src="./img/Frame 1261155604.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title fw-bold ;">星際旅行訂票平台</h5>
@@ -130,7 +132,7 @@
         </div>
       </div>
       <div class="card card_bd_none" style="width: 22rem; ">
-        <img src="./img/Frame 1261155604.png" class="card-img-top" alt="...">
+        <img src="./img/image 73.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title fw-bold ;">美美美早餐店 POS 機 UI Design</h5>
           <p class="card-text font_s16 card_taxi_color_919191">訂單送單一目瞭然，自動報表分析好輕鬆</p>
@@ -174,13 +176,61 @@
     <button type="button" class="btn btn-outline-secondary page_bt1 M-page_bt1 ">3</button>
   </div>
 
-  
-  </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-sm">
+      <div class="modal-content row modle_title_div  ">
+        <div class="modal-header ">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class=" modal-body container justify-content-center flex-wrap   ">
+          <div class="modal-title text-center Bold text fs-2 text " id="exampleModalLabel ">星際旅行訂票平台 </div>
+          <p> </p>
+          <div href="#" class=" text-center text-muted">悠遊宇宙的夢想，從這裡開始實現</div>
+        </div>
+        <div class="  modle_div2_font2 ">
+          <span class="lh-sm fs-6 text col-6">STAR TRAVEL 為 KK 公司宇宙旅行的購票網站。
+            主要從地球出發，目的地包含月球、火星、水星、木星；未來太空轉運站建置完畢，將再擴增目的地土星和金星。
+          </span>
+
+
+          <span class="lh-sm fs-6 text col-6 model_div_left">設計原則：宇宙旅行、深色背景、強烈視覺效果
+            <p></p>
+            開發方式：Bootstrap、Javascript、RWD
+          </span>
+        </div>
+
+        <div class="d-flex justify-content-center flex-wrap">
+          <img src="./img/modle_STAR TRAVEL.png"  class="img-fluid " alt="">
+
+          <div class=" container justify-content-center flex-wrap   ">
+            <div class="modal-title text-center Bold text fs-4 text " id="exampleModalLabel ">主視覺 </div>
+            <p> </p>
+            <div href="#" class=" d-flex justify-content-center flex-wrap text-muted">可直接設定日期、起迄星球、張數，快速查詢可購買的票券。</div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center flex-wrap">
+          <img src="./img/modle_STAR TRAVEL.png" class="img-fluid " alt="">
+          <div class=" container justify-content-center flex-wrap   ">
+            <div class="modal-title text-center Bold text fs-4 text" id="exampleModalLabel ">推薦查詢 </div>
+            <p> </p>
+            <div href="#" class=" text-center text-muted">給予最快起飛，以及最熱門的景點推薦，協助使用者進行選擇。</div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- footer -->
   <footer class="footer d-flex justify-content-center">
     <div class="footer_div1 d-block footer_div1_font">
       <img src="./img/logo.svg" alt="">
-      <p  class="text-black" ></p>
+      <p class="text-black"></p>
       <span class="text-decoration-none color-dark ">若有數位產品設計和開發相關問題
         <p></p>
         歡迎填寫表單，或直接與我聯絡！
@@ -188,15 +238,19 @@
         <a href="" class="text-black-50 text-decoration-none"> service@hexschool.com</a>
     </div>
     <div class="footer_div2">
-      <div class="footer_div2_div1 ">
-        <div class="d-flex justify-content-center align-items-center"><img src="./img/list.svg" alt=""> 
-         <a class="text-white text-decoration-none Bold text">填寫表單</a>
+      <div class="footer_div2_div1  d-flex justify-content-start align-items-center">
+        <div class="d-flex justify-content-start align-items-center"><img src="./img/list.svg" alt="">
+          <a class="text-white text-decoration-none Bold text fw-bold">填寫表單</a>
         </div>
-      </div> 
-      <div class="footer_div2_div2 d-flex justify-content-center align-items-center"><img src="./img/instagram.svg" alt="">
-        <a class="text-dark  text-decoration-none Bold text">hexschool_demo</a></div>
-      <div class="footer_div2_div2 d-flex justify-content-center align-items-center"><img src="./img/facebook.svg" alt="">
-        <a class="text-dark text-decoration-none Bold text">hexschoolTW</a></div>
+      </div>
+      <div class="footer_div2_div2 d-flex justify-content-start align-items-center"><img src="./img/instagram.svg"
+          alt="">
+        <a class="text-dark  text-decoration-none Bold text fw-bold">hexschool_demo</a>
+      </div>
+      <div class="footer_div2_div2 d-flex justify-content-start align-items-center"><img src="./img/facebook.svg"
+          alt="">
+        <a class="text-dark text-decoration-none Bold text fw-bold">hexschoolTW</a>
+      </div>
     </div>
   </footer>
 </body>
