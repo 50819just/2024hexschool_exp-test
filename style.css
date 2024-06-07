@@ -3,23 +3,21 @@
 }
 
 .nav-link {
-  font-size: 16px;
-  color: #1E1E1E
+  text-align: center;
+  color: #1E1E1E;
+  width: 120px;
 }
 
 .navbar-ul:hover{
-
-
   position: relative;
-  width:100px;
+  width:120px;
 }
 
-.navbar-ul::before,.navbar-ul::after{
+.navbar-ul::before, .navbar-ul::after{
 position: absolute;
 }
 
 .navbar-ul::before{
-
   top: 0;
   left: 0;
   content: "";
@@ -29,12 +27,14 @@ position: absolute;
   height: 10px;
   border-top: 4px solid #919191;
   border-left: 4px solid  #919191  ;
+  align-items: center;
   -webkit-box-reflect: below 20px;
+ 
 }
 
 .navbar-ul::after{
   top: 0;
-  left: 60px;
+  left: 105px;
   content: "";
   color: #919191;
   display: block;
@@ -42,13 +42,12 @@ position: absolute;
   height: 10px;
   border-top: 4px solid #919191;
   border-right: 4px solid  #919191  ;
+  align-items: center;
   -webkit-box-reflect: below 20px;
+
 }
-
-
 .navbar-nav {
-  gap: 30px;
-
+  gap: 20px;
 }
 
 .card-class {
