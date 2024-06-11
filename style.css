@@ -260,8 +260,12 @@ margin-right: auto;
 }
 
 .footer_div2 {
-  display: block;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
   text-align: center;
+  margin-bottom:10px ;
+  gap:10px
 
 }
 
@@ -370,5 +374,41 @@ margin-right: auto;
   margin: 20px 20px;
   gap: 20px;
   border-radius: 4px;
+
+}
+
+
+/* new index_______________________________ */
+/* header */
+
+@media screen and (max-width: 992px) {
+.newindex_hd_div{
+display: flex;
+justify-content: center;
+flex-direction:column-reverse ;
+text-align: center;
+
+
+}
+.newindex_hd_div_font{
+  text-align: center;
+}
+}
+@media screen and (max-width:768px) {
+.newindex_img{
+
+text-align: center;
+
+}
+}
+
+.newIndex_mainImg{
+ position: relative;
+
+}
+
+.newIndex_mainImg{
+ 
+position: absolute;
 
 }
